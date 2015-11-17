@@ -22,6 +22,11 @@ public class MenorDelVector{
 	static int pedirDimension(){
 		return Teclado.leerEntero("Dame la dimension del vector: ");
 	}
+	/**
+	* Metodo que inicializa un vector con valores aleatorios.
+	* @param vector Vector que se inicializa con valores aleatorios.
+	* @return el Vector.
+	*/
 	static int[] inicializarVectorAleatoriamente(int[] vector){
 		double aleatorio;
 		for(int i=0; i<vector.length; i++){
@@ -30,6 +35,12 @@ public class MenorDelVector{
 		}
 		return vector;
 	}
+	/**
+	* Metodo que halla el minimo de un vector.
+	* @param vector Vector del que se halla el minimo.
+	* @param min Valor minimo.
+	* @return El minimo.
+	*/
 	static int hallarMinimo(int[] vector, int min){
 		min=vector[0];
 		for(int i=0; i<vector.length; i++){

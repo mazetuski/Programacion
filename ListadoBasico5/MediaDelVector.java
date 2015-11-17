@@ -35,6 +35,11 @@ public class MediaDelVector{
 		}
 		return vector;
 	}
+	/**
+	* Metodo que halla la media de un vector.
+	* @param vector Vector del que se halla la media.
+	* @return La media.
+	*/
 	static double hallarMedia(int[] vector){
 		double suma=0;
 		for(int i=0; i<vector.length; i++)

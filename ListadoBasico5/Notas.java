@@ -10,7 +10,7 @@ public class Notas{
 	public static void main(String[] args) {
 		int[] notas=new int[15];
 		notas=notasAleatorias(notas);
-		mostrarResultado(notas);
+		mostrarArray(notas);
 	}
 	/**
 	* Metodo que asigna numeros aleatorios.
@@ -25,7 +25,10 @@ public class Notas{
 		}
 		return vector;
 	}
-	static void mostrarResultado(int[] vector){
+	/**
+	* Metodo que muestra un array.
+	*/
+	static void mostrarArray(int[] vector){
 		System.out.print("\nEl vector es [ ");
 		for(int i=0; i<vector.length; i++)
 			System.out.print(vector[i]+" ");

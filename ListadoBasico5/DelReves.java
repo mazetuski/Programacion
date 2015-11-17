@@ -23,6 +23,7 @@ public class DelReves{
 	}
 	/**
 	* Metodo que muestra un vector del reves.
+	* @param vector Vector que se muestra al reves.
 	*/
 	static void mostrarDelReves(int[] vector){
 		System.out.print("\nVector al reves: ");

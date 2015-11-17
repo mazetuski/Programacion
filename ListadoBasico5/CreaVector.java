@@ -21,7 +21,8 @@ public class CreaVector{
 		return Teclado.leerEntero("Dame "+mensaje);
 	}
 	/**
-	* Metodo que muestra un vector del reves.
+	* Metodo que muestra un vector.
+	* @param vector vector que se muestra
 	*/
 	static void mostrarResultado(int[] vector){
 		System.out.print("El vector es: ");

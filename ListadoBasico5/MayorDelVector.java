@@ -35,6 +35,12 @@ public class MayorDelVector{
 		}
 		return vector;
 	}
+	/**
+	* Metodo que halla el maximo de un vector.
+	* @param vector Vector del que se halla el maximo.
+	* @param max Valor maximo.
+	* @return El maximo.
+	*/
 	static int hallarMaximo(int[] vector, int max){
 		max=vector[0];
 		for(int i=0; i<vector.length; i++){
