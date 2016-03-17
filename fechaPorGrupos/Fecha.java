@@ -135,7 +135,7 @@ public class Fecha {
 	 *            Anio de la fecha.
 	 */
 	private void setCalendar(String dia, String mes, String anio) {
-		calendar.setLenient(true);
+		calendar.setLenient(false);
 		int date = Integer.parseInt(dia);
 		int month = Integer.parseInt(mes) - 1;
 		int year = Integer.parseInt(anio);
