@@ -19,8 +19,8 @@ import java.util.GregorianCalendar;
 public class TestFecha {
 	public static void main(String[] args) {
 		try {
-			Fecha fecha = new Fecha("31/03/1985");
-			Fecha fecha2 = new Fecha("02", "03", "1979");
+			Fecha fecha = new Fecha("31/03/1995");
+			Fecha fecha2 = new Fecha("-02", "03", "1999");
 			Fecha fechaFutura = new Fecha("29/02/2020");
 			System.out.println("Dias transcurridos: "
 					+ fecha.calcularDiasTranscurridos());
@@ -30,7 +30,7 @@ public class TestFecha {
 			System.out.println("Es futura?: " + fecha.esFuturo());
 			System.out.println("Es futura? (fechaFutura): "
 					+ fechaFutura.esFuturo());
-			GregorianCalendar fechaSuma = fecha.sumarFechas(1, 10);
+			GregorianCalendar fechaSuma = fecha.sumarFechas(fecha2);
 			System.out.println("Suma fecha: " + fechaSuma.getTime());
 			System.out.println("Es mayor de edad?:" + fecha.esMayorEdad());
 			System.out.println("Es mayor de edad?:" + fecha2.esMayorEdad());
